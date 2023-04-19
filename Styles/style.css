@@ -183,7 +183,7 @@ body::-webkit-scrollbar-thumb {
 .vid-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-column-gap: 2rem;
+  grid-column-gap: 1.1rem;
   grid-row-gap: 2rem;
 }
 .thumnail{
@@ -214,15 +214,39 @@ body::-webkit-scrollbar-thumb {
 }
 .vid-info>h3{
   font-size: 1rem;
+  letter-spacing: .5px;
 }
 .vid-info>p{
 margin-top: -.8rem;
 }
 
 
+#shorts{
+  margin-left: 7rem;
+}
+
+.short-head>img{
+  width: 2%;
+  height: 2%;
+  margin-right: .7rem;
+}
+.short-head p{
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.short-head{
+  display: flex;
+  align-items: center;
+}
 
 .short-container{
-  margin-left: 7rem;
   display: flex;
   gap: 1rem;
+  overflow-x: scroll;
+}
+.short{
+  flex: 0 1 10rem;
+}
+.short-img>img{
+  border-radius: 15px;
 }
