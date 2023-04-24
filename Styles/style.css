@@ -122,7 +122,7 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   width: 92%;
-  height: 2.2rem;
+  height: 2.4rem;
   background-color: white;
   list-style: none;
   right: 0;
@@ -250,3 +250,94 @@ margin-top: -.8rem;
 .short-img>img{
   border-radius: 15px;
 }
+
+@media  (max-width: 868px) {
+  .header{
+    gap: 1rem;
+  }
+  .center{
+    margin-right: 0rem;
+    margin-left: 2rem;
+  }
+
+ }
+
+ @media  (max-width: 768px) {
+  .header{
+    gap: 1rem;
+  }
+  .center{
+    margin-right: 0rem;
+    margin-left: 2rem;
+  }
+}
+
+ 
+@media  (max-width: 658px) {
+  .header{
+    gap: 0rem;
+  }
+  .center{
+    margin-right: 0rem;
+    margin-left: 4rem;
+  }
+}
+@media  (max-width: 600px) {
+  .header{
+    gap: 0rem;
+  }
+  .center{
+    margin-right: 0rem;
+    margin-left: 7rem;
+  }
+  .center>input{
+    display: none;
+  }
+  .search{
+    border: none;
+    margin-left: 2rem;
+    padding-right: 0;
+    background-color: transparent;
+    border-radius: 0px;
+  }
+  .sidebar{
+    display: none;
+  }
+  .cards{
+    margin-left: 2rem;
+  }
+  #shorts{
+    margin-left: 2rem;
+  }
+}
+
+@media  (max-width: 500px) {
+  .header{
+    gap: 0rem;
+  }
+  .center{
+    margin-right: 0rem;
+    margin-left: 4rem;
+  }
+  .center>input{
+    display: none;
+  }
+  .search{
+    border: none;
+    margin-left: 2rem;
+    padding-right: 0;
+    background-color: transparent;
+    border-radius: 0px;
+  }
+  .sidebar{
+    display: none;
+  }
+  .cards{
+    margin-left: 2rem;
+  }
+  #shorts{
+    margin-left: 2rem;
+  }
+}
+
+
